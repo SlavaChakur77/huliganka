@@ -1,0 +1,20 @@
+huliganka/
+├── client/               # React (фронтенд)
+│   ├── public/
+│   └── src/
+│       ├── components/Chat.js
+│       ├── components/Profile.js
+│       ├── components/Login.js
+│       └── App.js, index.js
+├── server/               # Node.js + Express + Socket.IO
+│   ├── models/User.js
+│   ├── routes/auth.js
+│   ├── routes/profile.js
+│   ├── middleware/auth.js
+│   ├── uploads/          # (папка для фото)
+│   ├── .env
+│   ├── server.js
+│   └── package.json
+├── .gitignore
+├── README.md
+└── LICENSE
